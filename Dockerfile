@@ -1,4 +1,4 @@
-FROM somosphi/r4digital:latest
+FROM r4digital/ubuntu:latest
 
 LABEL maintainer="henrique.schmidt@somosphi.com"
 
