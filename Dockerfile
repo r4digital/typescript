@@ -2,7 +2,7 @@ FROM r4digital/ubuntu:latest
 
 LABEL maintainer="henrique.schmidt@somosphi.com"
 
-ENV NODE_VERSION=14
+ENV NODE_VERSION=16
 
 # Install NodeJS and Typescript
 RUN curl -sL https://deb.nodesource.com/setup_${NODE_VERSION}.x | bash - && \
